@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfólio</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Lucas">
+		<meta name="description" content="Site demonstrando um pouco de mim e do que eu faco">
+		<meta name="keyword" content="Portfolio">
+		<link rel="stylesheet" href="portfolio.css">
+	</head>
+	<body>
+		<div class="header">
+			<h1>Portfólio</h1>
+		</div>
+		<br>
+		<div>
+			<center><p class="welcome">
+				Bem vindo!
+			</p></center>
+		</div>
+			<p style="padding: 10px; text-align: center; font-family: 'Montserrat', sans-serif;">
+				Se desejar, conheça mais um pouco sobre mim e alguns de meus trabalhos
+			</p>
+		<div class="divs">
+			<img src="imagens/bg4.jpg" style="height: 635px;" class="bg-img1">
+			<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="imagens/img1.png" alt="konan" class="img1" style="width: 500px;" />
+			<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="imagens/img2.png" alt="exzor" class="img2" style="width: 500px;" />
+			<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="imagens/img3.png" alt="davi" class="img3" style="width: 500px;" />
+		</div>
+		<br>
+		<div class="divs2">
+			<center><img src="imagens/bg6.jpg" class="bg-img2"  style="height: 800px; position: absolute;"></center>
+			<h1 style="text-align: center; padding: 10px; position: relative;">Quem sou eu?</h1>
+			<center><img src="imagens/eu.jpg" style="position: relative;"></center>
+			<br>
+			<center><p style="font-weight: bolder; text-shadow: 0 2px 2px #000; position: relative; font-family: 'Montserrat', sans-serif;">Meu nome é Lucas de Assis, atualmente tenho 15 anos e sou um aluno do 1° Ano do Ensino Médio integrado com o curso de Informática, na escola Instituto Federal de São Paulo no Campus Hortolândia.</p></center>
+			<br>
+		</div>
+		<br/>
+		<div class="page">
+			<center><h1>MEUS HOBBIES</h1></center>
+			<div style="text-indent: 40px;"><center><p style="font-family: 'Montserrat', sans-serif;">Basicamente o que eu mais faço para me divertir, principalmente nos dias atuais, se resume em:</p></center></div>
+			<br>
+			
+			<div class="container" id="jojos">
+				<p class="texto" style="font-size: 40px; font-weight: bolder;">Ouvir músicas</p>
+				<br />
+				
+				<div class="figura">
+					<p><img src="imagens/album.png" width="180"
+					></p>
+					<p class="legenda">Fotografia do finado Artista Lil Peep</p>
+				</div>
+				<p class="texto">Alguns dos artistas e bandas que mais gosto são: Lil Peep, Clairo, Gemini Aaliyah, Freddie Dredd, HAARPER, Lontalius, entre outros. Os meus gêneros musicais favoritos são eletrônica, trap, e rap.</p>
+
+
+			</div>
+			
+			<div class="container" id="jojos">
+				<p class="texto" style="font-size: 40px; font-weight: bolder;">Jogar</p>
+				<br />
+				
+				<div class="figura">
+					<p><img src="imagens/jogo.png" width="136"
+					 ></p>
+					<p class="legenda">Jogo The Legend of Zelda: Breath of the Wild</p>
+				</div>
+				<p class="texto">Eu adoro jogar jogos eletrônicos, principalmente quando se trata dos que eu mais gosto, como por exemplo, jogos como The Legend of Zelda: Breath of the Wild, Ragnarök Online, Nier: Automata, League of Legends... entre outros.</p>
+
+			</div>
+
+			<div class="container" id="jojos">
+				<p class="texto" style="font-size: 40px; font-weight: bolder;">Desenhar</p>
+				<br />
+				<div class="figura">
+					<p><img src="imagens/desenho.png" width="250"
+					  ></p>
+					<p class="legenda">Fanart minha da personagem Sailor Moon</p>
+				</div>
+				<p class="texto">Desenhar sempre foi um pouco relaxante pra mim, gostava de desenhar desde pequeno. Atualmente estou tentando evoluir como artista digital, mas por hora só desenho por hobby. Respeito muitos artistas digitais como Guilherme Freitas, Emilyena, Guweiz e Marc Brunet.</p>
+				
+			</div>
+		</div>
+		<div class="final">
+			<center><p id="finalzao"> E por enquanto é isso.</p></center>
+			
+		</div>
+
+		<address>
+				Feito e desenvolvido por Lucas de Assis<br />
+				1° Ano de Informática<br />
+				Contato: <a href="https://www.instagram.com/lucasassis_art/">Instagram</a> (@lucasassis_art)<br />
+				Aluno da escola: <a href="http://hto.ifsp.edu.br/institucional/">Instituto Federal Câmpus Hortolândia</a>
+			</address>
+		<script>
+			function bigImg(x) {
+  				x.style.width = "600px";
+			}
+
+			function normalImg(x) {
+		  		x.style.width = "500px";
+			}
+		</script>
+	</body>
+</html>
